@@ -9,7 +9,7 @@ class juegoDosController extends Controller
     //
     public function index(){
 
-    	return view('juegoDos');
+    	return view('juegoDosMaster');
 
     }
 }

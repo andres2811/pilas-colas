@@ -21,7 +21,7 @@
 		
 		
 	      <div class="modal-footer">
-	        <a type="button" class="btn btn-primary"" href="{{ URL::to('master_ingreso')}}">INGRESAR</a>
+	        <a type="button" class="btn btn-primary"" href="{{ URL::to('opcion_juego')}}">INGRESAR</a>
 	      </div>
 
 	      <div class="modal-footer">

@@ -13,31 +13,35 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
+       
+   	 <div class="container bg-secondary py-3 text-light">
+  		<div class="container bg-dark text-white py-2 ">    
+  		<p  class="display-4">Systema de citas</p>
+  		</div>
+	</div> 
 
+	<ul>
+		<li class="nav-item">
+		    <a typebr="button" class="btn btn-primary"" href="{{ URL::to('formulario_citas')}}">formulario de citas</a>
+		</li>
 
-	<!--Menu de mi master-->
-	<ul class="nav justify-content-center">
-		  <li class="nav-item">
-		    <a type="button" class="btn btn-primary" href="{{ URL::to('juegoDos')}}">torres de hanoy</a>
-		  </li>
+		<li class="nav-item">
+		    <a typebr="button" class="btn btn-primary"" href="{{ URL::to('cajeros_citas')}}">cajeros de citas</a>
+		</li>
 
-		  <li class="nav-item">
-		    <a type="button" class="btn btn-primary"" href="{{ URL::to('juegoUno')}}">systema de citas</a>
-		  </li>
-		  
-		</ul>
+		<li class="nav-item">
+			    <a typebr="button" class="btn btn-primary"" href="{{ URL::to('reporte_citas')}}">reportes de citas</a>
+		</li>
+	</ul>
 
-
-	<!--Contenedor-->
 	<div class="container">
-		@yield('contenido')
+		@yield('cont')
 	</div>
 
 
-	<div class="container">
-		@yield('formulario')
-	</div>
-
+	<li class="nav-item">
+		    <a type="button" class="btn btn-primary"" href="{{ URL::to('opcion_juego')}}">regresar a opciones programa</a>
+	</li>
 
 </body>
 </html>

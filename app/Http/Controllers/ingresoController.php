@@ -16,7 +16,7 @@ class ingresoController extends Controller
 
     public function menu(){
 
-    	return view('master_ingreso');
+    	return view('opcion_juego');
 
     }
 

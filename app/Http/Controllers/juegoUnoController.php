@@ -10,7 +10,7 @@ class juegoUnoController extends Controller
 
     public function index(){
 
-    	return view('juegoUno');
+    	return view('juegoUnoMaster');
 
     }
 
@@ -18,6 +18,20 @@ class juegoUnoController extends Controller
     public function ingresoClientes() {
 
     	return view('formulario_citas');
+
+
+    }
+
+    public function cajeros() {
+
+    	return view('cajeros_citas');
+
+
+    }
+
+    public function reporte() {
+
+    	return view('reporte_citas');
 
 
     }

@@ -1,6 +1,6 @@
-@extends('master')
+@extends('juegoUnoMaster')
 
-@section('content')
+@section('cont')
 
 <div class="container bg-secondary py-3 text-light">
   <div class="container bg-dark text-white py-2 ">    
