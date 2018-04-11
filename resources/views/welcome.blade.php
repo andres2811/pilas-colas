@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="../public/css/welcome.css">
+
 
 <body class="container bg-dark">
     <font color="white"><h2 class="text-center">Bienvenido</h2></font>
