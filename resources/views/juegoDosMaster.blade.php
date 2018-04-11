@@ -24,10 +24,23 @@
 
 
 
+<<<<<<< Updated upstream:resources/views/juegoDosMaster.blade.php
 	<br><br><br><br><br>
     <li class="nav-item">
 		    <a typebr="button" class="btn btn-primary"" href="{{ URL::to('opcion_juego')}}">regresar a opciones programa</a>
 	</li>
+=======
+	<!--Contenedor-->
+	<!--<div class="container">
+		@yield('contenido')
+	</div>
+
+
+	<div class="container">
+		@yield('formulario')
+	</div>
+
+>>>>>>> Stashed changes:resources/views/master_ingreso.blade.php
 
 </body>
 </html>

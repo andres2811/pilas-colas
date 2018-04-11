@@ -1,6 +1,8 @@
 @extends('master')
 
 @section('content')
+
+<body class="img">
     <h2 class="text-center">Bienvenido</h2>
     <div class="container">
 		<ul class="nav justify-content-center">
@@ -14,5 +16,9 @@
 		  
 		</ul>
 	</div>
+	<img src="../public/imagenes/fondo.jpg" class="rounded-circle" alt="Cinque Terre" class="text-center">
+
+</body>
+</html>
 
 @stop
