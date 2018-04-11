@@ -1,9 +1,10 @@
 @extends('master')
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="../public/css/welcome.css">
 
-<body class="img">
-    <h2 class="text-center">Bienvenido</h2>
+<body class="container bg-dark">
+    <font color="white"><h2 class="text-center">Bienvenido</h2></font>
     <div class="container">
 		<ul class="nav justify-content-center">
 		  <li class="nav-item">
@@ -16,7 +17,7 @@
 		  
 		</ul>
 	</div>
-	<img src="../public/imagenes/fondo.jpg" class="rounded-circle" alt="Cinque Terre" class="text-center">
+	<center><img src="../public/imagenes/hola.png" width="1000" class="rounded-circle" alt="Cinque Terre"></center>
 
 </body>
 </html>
