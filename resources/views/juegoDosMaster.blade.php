@@ -12,24 +12,29 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<body>
 
-     <div class="container bg-secondary py-3 text-light">
-  		<div class="container bg-dark text-white py-2 ">    
-  		<p  class="display-4">Torres de hanoy</p>
+
+<body class="bg-dark">
+
+     <div class="container bg-light py-3 text-light"> <!--marco exterior del ttulo-->
+  		<div class="container bg-info text-white py-1 "> <!--marco interior del titulo-->    
+  		<p class="display-3" align="center">Torres de hanoi</p>
   		</div>
 	</div> 
+	<br>
+	<center>
+	<img src="../public/imagenes/hanoi.jpeg" width="350" class="rounded-circle">
+	</center>
 
-	
 
 
-
-<<<<<<< Updated upstream:resources/views/juegoDosMaster.blade.php
-	<br><br><br><br><br>
+	<br><br>
     <li class="nav-item">
-		    <a typebr="button" class="btn btn-primary"" href="{{ URL::to('opcion_juego')}}">regresar a opciones programa</a>
+    	<div class="modal-footer"> <!--modal-footer corre el boton a la parte derecha y le pone una linea arriba-->
+		    <a typebr="button" class="btn btn-danger"" href="{{ URL::to('opcion_juego')}}">regresar a opciones programa</a>
+	    </div>
 	</li>
-=======
+
 	<!--Contenedor-->
 	<!--<div class="container">
 		@yield('contenido')
