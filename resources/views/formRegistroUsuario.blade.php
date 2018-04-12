@@ -2,30 +2,30 @@
 
 @section('content')
     
-	
+<body class="bg-dark">
     <div class="row">
 	  <div class="col-6 col-md-4"></div>
 	  <div class="col-6 col-md-4 text-center">
 	  	<br><br><br>
-	  	<h2>Formulario Registro de Usuario</h2>
+	  	<font color="white"><h2>Formulario Registro de Usuario</h2></font>
 	  </div>
 	  <div class="col-6 col-md-4"></div>
 	</div>
 	<br>
 
-	<div class="row">
-	  <div class="col-12 col-md-12 text-center">Registro de usuario</div>
-	  <div class="col-6 col-md-3"></div>
-	</div>
+	
 
-	<div class="row">
+	<center>
+	
 	  <div class="col-6 col-md-6 text-center">
 	  	<button type="button" class="btn btn-primary btn-lg btn-block pull-right" data-toggle="modal" data-target="#idRegistroUsuario">
 	  		click para registrar
 	  	</button>
 	  </div>
-	  
-	</div>
+	 
+	</center>
+</body>
+	
 	<!-- Los errores los retorna a la vista, a esta!! -->
 	<!-- Vamos a mostrar los errores que retorna-->
 
@@ -141,5 +141,6 @@
 	    </div>
 	  </div>
 	</div>
+
 	
 @stop
